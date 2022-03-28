@@ -93,7 +93,10 @@ async def chatpm(_, message):
 
 @bot.on_message(filters.command("start") & ~filters.edited)
 async def startt(_, message):
-    await message.reply_text("Hi, I'm Alive ╮(. ❛ ᴗ ❛.)╭")
+    await message.reply_text("
+𝙸'𝚊𝚖 𝙰𝚗𝚐𝚎𝚕, 𝙼𝚊𝚌𝚑𝚒𝚗𝚎 𝙻𝚎𝚊𝚛𝚗𝚒𝚗𝚐 𝙲𝚑𝚊𝚝 𝙱𝚘𝚝
+𝚝𝚑𝚊𝚝 𝚌𝚊𝚗 𝚝𝚊𝚕𝚔 𝚊𝚋𝚘𝚞𝚝 𝚊𝚗𝚢 𝚝𝚘𝚙𝚒𝚌 𝚒𝚗 𝚊𝚗𝚢 𝚀𝚞𝚎𝚜𝚝𝚒𝚘𝚗𝚜.
+")
 
 
 async def main():
