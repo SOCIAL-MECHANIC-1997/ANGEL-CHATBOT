@@ -16,13 +16,13 @@ print("[INFO]: Code running by master Prince Op")
 arq = None
 
 
-async def lunaQuery(query: str, user_id: int):
+async def AngelQuery(query: str, user_id: int):
     query = (
         query
         if LANGUAGE == "en"
         else (await arq.translate(query, "en")).result.translatedText
     )
-    resp = (await arq.luna(query, user_id)).result
+    resp = (await arq.Angel(query, user_id)).result
     return (
         resp
         if LANGUAGE == "en"
@@ -37,17 +37,17 @@ async def type_and_send(message):
     user_id = message.from_user.id if message.from_user else 0
     query = message.text.strip()
     await message._client.send_chat_action(chat_id, "typing")
-    response, _ = await gather(lunaQuery(query, user_id), sleep(2))
+    response, _ = await gather(AngelQuery(query, user_id), sleep(2))
     if "Luna" in response:
-        responsee = response.replace("Luna", "Tiana")
+        responsee = response.replace("Angel", "Social")
     else:
         responsee = response
     if "Aco" in responsee:
-        responsess = responsee.replace("Aco", "Tiana")
+        responsess = responsee.replace("Aco", "Angel")
     else:
         responsess = responsee
-    if "Who is Tiana?" in responsess:
-        responsess2 = responsess.replace("Who is Tiana?", "Heroine Of Telegram")
+    if "Who is Angel?" in responsess:
+        responsess2 = responsess.replace("Who is Angel?", "Heroine Of Telegram")
     else:
         responsess2 = responsess
     await message.reply_text(responsess2)
@@ -107,7 +107,7 @@ async def main():
     await bot.start()
     print(
         """
-Your TianaChatBot Is Deployed Successfully.
+Your AngelChatBot Is Deployed Successfully.
 """
     )
     await idle()
