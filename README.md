@@ -3,7 +3,7 @@
 <p align="center"><img src="https://telegra.ph/file/6caec29bf58337953a4b4.png"></p>
 
 
-• A Public Running Instance can be found on Telegram as [@hello](https://t.me/chatBOT).
+• A Public Running Instance can be found on Telegram as [@hello](https://t.me/social_mechanicrobot).
 
 ## DEPLOY ON HEROKU
 
@@ -17,14 +17,14 @@
 
 ## Self Hosting For Devs
 
-1. `git clone https://github.com/Prince-Botz/TianaChatBot`
-2. `cd LunaChatBot`
+1. `git clone https://github.com/SOCIAL-MECHANIC-1997/ANGEL-CHATBOT`
+2. `cd AngelChatBot`
 3. `pip3 install -r requirements.txt` to install the requirements.
 4. `cp sample_config.py config.py`
 5. Edit `config.ini` with your own values.
-6. Run with `python3 Tiana.py`
+6. Run with `python3 Angel.py`
 
-### CREDITS 
+### CREATED BY
 
-• [no](https://github.com/The/ChatBot)
-
+- [SOCIAL MECHANIC](https://github.com/SOCIAL-MECHANIC-1997)
+- [DEMO](https://t.me/social_mechanicrobot)
