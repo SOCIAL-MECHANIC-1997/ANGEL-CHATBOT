@@ -3,7 +3,7 @@
 <p align="center"><img src="https://telegra.ph/file/6caec29bf58337953a4b4.png"></p>
 
 
-• A Public Running Instance can be found on Telegram as [@hello](https://t.me/social_mechanicrobot).
+• A Public Running Instance can be found on Telegram as [@hello](https://t.me/social_mechanicbot).
 
 ## DEPLOY ON HEROKU
 
@@ -27,4 +27,4 @@
 ### CREATED BY
 
 - [SOCIAL MECHANIC](https://github.com/SOCIAL-MECHANIC-1997)
-- [DEMO](https://t.me/social_mechanicrobot)
+- [DEMO](https://t.me/social_mechanicbot)
